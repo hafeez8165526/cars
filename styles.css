@@ -1,0 +1,45 @@
+
+#header-nav{
+    border:2px solid black;
+}
+.navbar,.navbar-nav,.navbar-collapse{
+    border-radius: 0;
+    margin:0;
+    padding-right: 0;
+    padding-left: 0;
+
+}
+.navbar-header button,.navbar-header .icon-bar{
+    border: 1px solid #000;
+}
+
+.collapse li {
+    color: #000;
+    border: 2px solid #000;
+}
+#chicken,#mutton,#eggs{
+    border: 2px solid #000;
+    background-color: darkgrey;
+    overflow: hidden;
+    height:250px;
+    width:100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.container p{
+    color:#000;
+    font-size: 1.4em;;
+
+}
+.navbar-default .navbar-nav > li > a{
+    color:#000;
+}
+.nav li:hover{
+    background-color: rgb(211, 206, 206);
+}
+#header-nav{
+    background-color: burlywood;
+}
+
+
+
