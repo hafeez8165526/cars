@@ -33,6 +33,7 @@ ul {
 li {
 	color: rgb(255, 255, 255);
 	align-items: center;
+	text-align: center;
 	width: 100%;
 	max-width: fit-content;
 	list-style: none;
