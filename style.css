@@ -79,12 +79,15 @@ nav {
 .fa-bars {
 	color: white;
 }
-button:hover,
 button {
-	background-color: lightslategray;
 	position: absolute;
-	right: 0px;
+	right: 20px;
 	top: 8px;
+	width: 20px;
+	height: 25px;
+}
+.fa-bars:hover {
+	background-color: rgb(101, 103, 105);
 }
 li.nav-item {
 	margin-right: 10px;
@@ -97,11 +100,17 @@ li.nav-item {
 	font-stretch: extra-expanded;
 	font: bold;
 	position: relative;
-	left: 8px;
+	left: 2px;
+	top: 2px;
+	float: left;
 }
 #logo {
 	margin-bottom: 18px;
-	margin-left: 0px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	float: left;
+	display: inline;
 }
 .collapse {
 	background-color: rgba(39, 37, 37, 0.904);
