@@ -10,12 +10,19 @@ body {
 	width: 100%;
 	display: inline;
 }
+.social {
+	text-align: center;
+	position: relative;
+	bottom: 0px;
+	width: 100%;
+	background-color: rgb(182, 178, 178);
+}
 footer {
 	background-color: rgb(49, 47, 47);
 	position: relative;
 	bottom: 0px;
-	left: 0px;
-	max-width: 100%;
+	clear: both;
+	width: 100%;
 }
 ul {
 	text-decoration: none;
@@ -24,19 +31,11 @@ ul {
 	text-align: center;
 }
 li {
-	color: whitesmoke;
+	color: rgb(255, 255, 255);
 	align-items: center;
 	width: 100%;
 	max-width: fit-content;
 	list-style: none;
-}
-.social {
-	text-align: center;
-	position: relative;
-	bottom: 0px;
-	left: 0px;
-	width: 100%;
-	background-color: rgb(182, 178, 178);
 }
 
 .fa {
@@ -80,8 +79,12 @@ nav {
 .fa-bars {
 	color: white;
 }
-button:hover {
+button:hover,
+button {
 	background-color: lightslategray;
+	position: absolute;
+	right: 0px;
+	top: 8px;
 }
 li.nav-item {
 	margin-right: 10px;
@@ -93,4 +96,13 @@ li.nav-item {
 	font-style: oblique;
 	font-stretch: extra-expanded;
 	font: bold;
+	position: relative;
+	left: 8px;
+}
+#logo {
+	margin-bottom: 18px;
+	margin-left: 0px;
+}
+.collapse {
+	background-color: rgba(39, 37, 37, 0.904);
 }
