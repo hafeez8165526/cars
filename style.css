@@ -8,11 +8,13 @@ body {
 	background-color: black;
 	height: 10vh;
 	width: 100%;
+	display: inline;
 }
 footer {
-	background-color: rgb(61, 58, 58);
+	background-color: rgb(49, 47, 47);
 	position: relative;
 	bottom: 0px;
+	left: 0px;
 	max-width: 100%;
 }
 ul {
@@ -30,8 +32,11 @@ li {
 }
 .social {
 	text-align: center;
-	margin: auto;
-	background-color: gainsboro;
+	position: relative;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	background-color: rgb(182, 178, 178);
 }
 
 .fa {
@@ -43,7 +48,7 @@ a {
 	list-style: none;
 }
 
-img:hover {
+img.card-img-top:hover {
 	border: solid 4px rgb(172, 172, 169);
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -65,4 +70,27 @@ p {
 	text-align: center;
 	position: relative;
 	bottom: 19px;
+}
+nav {
+	background-color: black;
+}
+.navbar-nav {
+	text-align: center;
+}
+.fa-bars {
+	color: white;
+}
+button:hover {
+	background-color: lightslategray;
+}
+li.nav-item {
+	margin-right: 10px;
+}
+.navbar-brand {
+	font-size: xx-large;
+	font-weight: 900;
+	font-family: fantasy;
+	font-style: oblique;
+	font-stretch: extra-expanded;
+	font: bold;
 }
