@@ -1,3 +1,3 @@
 $('.carousel').carousel({
-  interval: 1000 * 10
+  interval: 100 * 10
 });
